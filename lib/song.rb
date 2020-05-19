@@ -10,7 +10,7 @@ attr_accessor :name, :artist, :genre
     @name = name
     @artist = artist
     @genre = genre
-    @@artist << @artist
+    @@artist.push(artist)
   end
 
 end
