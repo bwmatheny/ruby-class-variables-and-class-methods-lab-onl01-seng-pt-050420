@@ -3,7 +3,7 @@ class Song
 attr_accessor :name, :artist, :genre
 
 @@count = 0
-@@artist = []
+@@artist = Array.new
 
   def initialize(name, artist, genre)
     @@count += 1
