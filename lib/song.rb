@@ -15,7 +15,7 @@ attr_accessor :name, :artist, :genre
     @@genres.push(genre)
   end
 
-  def count
+  def self.count
     @@count
   end
 end
